@@ -6,48 +6,57 @@
     overflow-y:none;
 }
 
+#container {
+    display:block;
+    height: 80vw;
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 80vh;
+    max-height: 80vh;
+}
+
 #main-logo-circle {
     display:block;
     background-color: #eee;
-    height:600px;
-    width:600px;
-    margin: calc(50vh - 300px) auto;
+    height:100%;
+    width:100%;
+    margin: calc(50vh - 50%) auto;
     border-radius: 100%;
     position: relative;
 }
 
 #line-top, #line-bottom {
     display:block;
-    height: 80px;
-    width: 350px;
+    height: 13%;
+    width: 58%;
     position:absolute;
-    left: 125px;
+    left: 20.25%;
 }
 
 #line-top {
-    top: 100px;
+    top: 16.666%;
 }
 
 #line-bottom {
-    bottom: 100px;
+    bottom: 16.666%;
 }
 
 #outer-circle {
     background-color: rgb(88, 157, 88);
-    height: 300px;
-    width: 300px;
+    height: 50%;
+    width: 50%;
     border-radius: 100%;
     position: absolute;
-    top: 150px;
-    left: 150px;
+    top: 25%;
+    left: 25%;
 }
 
 #inner-circle {
-    height:150px;
-    width:150px;
+    height:50%;
+    width:50%;
     background-color:#eee;
     border-radius: 100%;
-    margin: 75px auto;
+    margin: 25% auto;
 }
 
 #me {
@@ -61,7 +70,7 @@
 
 #me p{
     background-color:rgb(64, 123, 64);
-    padding:10px
+    padding:10px;
 }
 
 #me #diag {
