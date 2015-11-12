@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    background-color:#3660ad;
+}
+
+.container {
+    height: 80vh;
+    width: 80vh;
+    max-height: 80vw;
+    max-width: 80vw;
+    margin: 0 auto;
+    
+}
+
+#red-circle-outer {
+    height: 100%;
+    width: 100%;
+    background-color: #cb4040;
+    display:block;
+    border-radius: 50%;
+    margin: calc(50vh - 50%) auto;
+    position: relative;
+}
+
+#white-circle {
+    height: 80%;
+    width: 80%;
+    background-color: #dedede;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+}
+
+#red-circle-inner {
+    height: 80%;
+    width: 80%;
+    background-color: #cb4040;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 50%;
+}
+
+#blue-circle {
+    height: 80%;
+    width: 80%;
+    background-color: #3660ad;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+#star {
+    height:95%;
+    width: 95%;
+    position:absolute;
+    top: 0%;
+    left: 2.5%;
+    background-image: url(img/star.svg);
+    background-repeat: no-repeat;
+}
+
+#me {
+    position:absolute;
+    bottom:0;
+    right:0;
+    background-color:rgb(64, 123, 64);
+    z-index: 100;
+    display:block;
+}
+
+#me p{
+    background-color:#759feb;
+    padding:10px;
+}
+
+#me #diag {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 38px 38px;
+    border-color: transparent transparent #4a76c6 transparent;
+    background-color: transparent;
+    position:absolute;
+    bottom: 0;
+    left: -38px;
+}
