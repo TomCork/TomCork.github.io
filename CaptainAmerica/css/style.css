@@ -17,6 +17,12 @@ html, body {
     
 }
 
+.container:hover .rotate{
+    animation-name: transform;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
 #red-circle-outer {
     height: 100%;
     width: 100%;
@@ -58,11 +64,9 @@ html, body {
 }
 
 #star {
-    height:95%;
+    height:100%;
     width: 95%;
-    position:absolute;
-    top: 0%;
-    left: 2.5%;
+    margin: 0 auto;
     background-image: url(img/star.svg);
     background-repeat: no-repeat;
 }
