@@ -15,24 +15,8 @@ html, body {
     max-height: 80vw;
     max-width: 80vw;
     margin: 0 auto;
-    
 }
 
-.container:hover .rotate{
-    animation-name: rotate-stuff;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes rotate-stuff {
-    0% {
-        transform: rotate(0deg);
-    }
-    
-    100% {
-        transform: rotate(72deg);
-    }
-}
 
 #red-circle-outer {
     height: 100%;
