@@ -8,7 +8,7 @@
 
 html, body {
     height: 100%;
-    background-color:#659db2;
+    background-color:#417762;
 }
 
 .section {
@@ -34,8 +34,7 @@ html, body {
 }
 
 .logoItem a {
-    height: 100%;
-    width: 100%;
+    height: 100
 }
 
 .logoItem a span {
